@@ -14,6 +14,25 @@
 		6E09715B1D2235ED0056B49B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E0971591D2235ED0056B49B /* LaunchScreen.storyboard */; };
 		6E0971661D2235ED0056B49B /* gltestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0971651D2235ED0056B49B /* gltestTests.swift */; };
 		6E0971711D2235ED0056B49B /* gltestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0971701D2235ED0056B49B /* gltestUITests.swift */; };
+		6E0971851D2376820056B49B /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E0971841D2376820056B49B /* Metal.framework */; };
+		6E0971871D23768A0056B49B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E0971861D23768A0056B49B /* QuartzCore.framework */; };
+		6E0971891D2379940056B49B /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 6E0971881D2379940056B49B /* Shader.metal */; };
+		6E09718D1D23A8ED0056B49B /* Matrix4.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E09718C1D23A8ED0056B49B /* Matrix4.m */; };
+		6E09718F1D23AA990056B49B /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E09718E1D23AA990056B49B /* Vertex.swift */; };
+		6E0971911D23AB390056B49B /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0971901D23AB390056B49B /* Node.swift */; };
+		6E0971931D23AE1F0056B49B /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0971921D23AE1F0056B49B /* Triangle.swift */; };
+		6E0971951D23B1B00056B49B /* Cube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0971941D23B1B00056B49B /* Cube.swift */; };
+		6E0971971D24C9FF0056B49B /* BufferProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0971961D24C9FF0056B49B /* BufferProvider.swift */; };
+		6E0971991D2503B60056B49B /* MetalTexture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0971981D2503B60056B49B /* MetalTexture.swift */; };
+		6E09719B1D2507480056B49B /* cube.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E09719A1D2507480056B49B /* cube.png */; };
+		6E09719D1D2508640056B49B /* MetalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E09719C1D2508640056B49B /* MetalViewController.swift */; };
+		6E09719F1D2615A60056B49B /* MySenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E09719E1D2615A60056B49B /* MySenceViewController.swift */; };
+		6E0971A11D2A09010056B49B /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E0971A01D2A09010056B49B /* a.png */; };
+		6E0971A31D2A63CC0056B49B /* MagicCube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0971A21D2A63CC0056B49B /* MagicCube.swift */; };
+		6E0971A51D2B7A9D0056B49B /* b.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E0971A41D2B7A9D0056B49B /* b.png */; };
+		6E4DBE4B1D2D0478005F1498 /* MagicCubeCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4DBE4A1D2D0478005F1498 /* MagicCubeCore.swift */; };
+		6E4DBE4D1D2E50FF005F1498 /* DetectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4DBE4C1D2E50FF005F1498 /* DetectViewController.swift */; };
+		6E4DBE501D2E8FFF005F1498 /* ImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4DBE4F1D2E8FFF005F1498 /* ImageManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +66,28 @@
 		6E09716C1D2235ED0056B49B /* gltestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gltestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E0971701D2235ED0056B49B /* gltestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gltestUITests.swift; sourceTree = "<group>"; };
 		6E0971721D2235ED0056B49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E0971841D2376820056B49B /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		6E0971861D23768A0056B49B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6E0971881D2379940056B49B /* Shader.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
+		6E09718A1D23A8ED0056B49B /* gltest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gltest-Bridging-Header.h"; sourceTree = "<group>"; };
+		6E09718B1D23A8ED0056B49B /* Matrix4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix4.h; sourceTree = "<group>"; };
+		6E09718C1D23A8ED0056B49B /* Matrix4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Matrix4.m; sourceTree = "<group>"; };
+		6E09718E1D23AA990056B49B /* Vertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
+		6E0971901D23AB390056B49B /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		6E0971921D23AE1F0056B49B /* Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		6E0971941D23B1B00056B49B /* Cube.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cube.swift; sourceTree = "<group>"; };
+		6E0971961D24C9FF0056B49B /* BufferProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BufferProvider.swift; sourceTree = "<group>"; };
+		6E0971981D2503B60056B49B /* MetalTexture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalTexture.swift; sourceTree = "<group>"; };
+		6E09719A1D2507480056B49B /* cube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cube.png; sourceTree = "<group>"; };
+		6E09719C1D2508640056B49B /* MetalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalViewController.swift; sourceTree = "<group>"; };
+		6E09719E1D2615A60056B49B /* MySenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySenceViewController.swift; sourceTree = "<group>"; };
+		6E0971A01D2A09010056B49B /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a.png; sourceTree = "<group>"; };
+		6E0971A21D2A63CC0056B49B /* MagicCube.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicCube.swift; sourceTree = "<group>"; };
+		6E0971A41D2B7A9D0056B49B /* b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b.png; sourceTree = "<group>"; };
+		6E4DBE4A1D2D0478005F1498 /* MagicCubeCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicCubeCore.swift; sourceTree = "<group>"; };
+		6E4DBE4C1D2E50FF005F1498 /* DetectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetectViewController.swift; sourceTree = "<group>"; };
+		6E4DBE4E1D2E8FAB005F1498 /* ImageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageManager.h; sourceTree = "<group>"; };
+		6E4DBE4F1D2E8FFF005F1498 /* ImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +95,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E0971871D23768A0056B49B /* QuartzCore.framework in Frameworks */,
+				6E0971851D2376820056B49B /* Metal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +120,8 @@
 		6E0971441D2235ED0056B49B = {
 			isa = PBXGroup;
 			children = (
+				6E0971861D23768A0056B49B /* QuartzCore.framework */,
+				6E0971841D2376820056B49B /* Metal.framework */,
 				6E09714F1D2235ED0056B49B /* gltest */,
 				6E0971641D2235ED0056B49B /* gltestTests */,
 				6E09716F1D2235ED0056B49B /* gltestUITests */,
@@ -97,12 +142,32 @@
 		6E09714F1D2235ED0056B49B /* gltest */ = {
 			isa = PBXGroup;
 			children = (
+				6E09719A1D2507480056B49B /* cube.png */,
+				6E0971A01D2A09010056B49B /* a.png */,
+				6E0971A41D2B7A9D0056B49B /* b.png */,
+				6E09718B1D23A8ED0056B49B /* Matrix4.h */,
+				6E09718C1D23A8ED0056B49B /* Matrix4.m */,
 				6E0971501D2235ED0056B49B /* AppDelegate.swift */,
 				6E0971521D2235ED0056B49B /* ViewController.swift */,
 				6E0971541D2235ED0056B49B /* Main.storyboard */,
 				6E0971571D2235ED0056B49B /* Assets.xcassets */,
 				6E0971591D2235ED0056B49B /* LaunchScreen.storyboard */,
 				6E09715C1D2235ED0056B49B /* Info.plist */,
+				6E0971881D2379940056B49B /* Shader.metal */,
+				6E09718A1D23A8ED0056B49B /* gltest-Bridging-Header.h */,
+				6E09718E1D23AA990056B49B /* Vertex.swift */,
+				6E0971901D23AB390056B49B /* Node.swift */,
+				6E0971921D23AE1F0056B49B /* Triangle.swift */,
+				6E0971941D23B1B00056B49B /* Cube.swift */,
+				6E0971961D24C9FF0056B49B /* BufferProvider.swift */,
+				6E0971981D2503B60056B49B /* MetalTexture.swift */,
+				6E09719C1D2508640056B49B /* MetalViewController.swift */,
+				6E09719E1D2615A60056B49B /* MySenceViewController.swift */,
+				6E0971A21D2A63CC0056B49B /* MagicCube.swift */,
+				6E4DBE4A1D2D0478005F1498 /* MagicCubeCore.swift */,
+				6E4DBE4C1D2E50FF005F1498 /* DetectViewController.swift */,
+				6E4DBE4E1D2E8FAB005F1498 /* ImageManager.h */,
+				6E4DBE4F1D2E8FFF005F1498 /* ImageManager.m */,
 			);
 			path = gltest;
 			sourceTree = "<group>";
@@ -229,6 +294,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E0971A51D2B7A9D0056B49B /* b.png in Resources */,
+				6E0971A11D2A09010056B49B /* a.png in Resources */,
+				6E09719B1D2507480056B49B /* cube.png in Resources */,
 				6E09715B1D2235ED0056B49B /* LaunchScreen.storyboard in Resources */,
 				6E0971581D2235ED0056B49B /* Assets.xcassets in Resources */,
 				6E0971561D2235ED0056B49B /* Main.storyboard in Resources */,
@@ -256,7 +324,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E0971891D2379940056B49B /* Shader.metal in Sources */,
+				6E09719F1D2615A60056B49B /* MySenceViewController.swift in Sources */,
+				6E4DBE4D1D2E50FF005F1498 /* DetectViewController.swift in Sources */,
+				6E09718D1D23A8ED0056B49B /* Matrix4.m in Sources */,
+				6E0971971D24C9FF0056B49B /* BufferProvider.swift in Sources */,
+				6E0971A31D2A63CC0056B49B /* MagicCube.swift in Sources */,
 				6E0971531D2235ED0056B49B /* ViewController.swift in Sources */,
+				6E4DBE501D2E8FFF005F1498 /* ImageManager.m in Sources */,
+				6E0971911D23AB390056B49B /* Node.swift in Sources */,
+				6E4DBE4B1D2D0478005F1498 /* MagicCubeCore.swift in Sources */,
+				6E0971991D2503B60056B49B /* MetalTexture.swift in Sources */,
+				6E0971951D23B1B00056B49B /* Cube.swift in Sources */,
+				6E09718F1D23AA990056B49B /* Vertex.swift in Sources */,
+				6E0971931D23AE1F0056B49B /* Triangle.swift in Sources */,
+				6E09719D1D2508640056B49B /* MetalViewController.swift in Sources */,
 				6E0971511D2235ED0056B49B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,10 +481,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = gltest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zzy.gltest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "gltest/gltest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -410,10 +496,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = gltest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zzy.gltest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "gltest/gltest-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -482,6 +571,7 @@
 				6E0971771D2235ED0056B49B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E0971781D2235ED0056B49B /* Build configuration list for PBXNativeTarget "gltestTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +580,7 @@
 				6E09717A1D2235ED0056B49B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E09717B1D2235ED0056B49B /* Build configuration list for PBXNativeTarget "gltestUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +589,7 @@
 				6E09717D1D2235ED0056B49B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
